@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8905911D213924F000D2FA01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905911C213924F000D2FA01 /* AppDelegate.m */; };
+		89059120213924F000D2FA01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905911F213924F000D2FA01 /* ViewController.m */; };
+		89059123213924F000D2FA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89059121213924F000D2FA01 /* Main.storyboard */; };
+		89059126213924F000D2FA01 /* SKImagePickerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89059124213924F000D2FA01 /* SKImagePickerDemo.xcdatamodeld */; };
+		89059128213924F000D2FA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89059127213924F000D2FA01 /* Assets.xcassets */; };
+		8905912B213924F000D2FA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89059129213924F000D2FA01 /* LaunchScreen.storyboard */; };
+		8905912E213924F000D2FA01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905912D213924F000D2FA01 /* main.m */; };
+		89059138213924F000D2FA01 /* SKImagePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89059137213924F000D2FA01 /* SKImagePickerDemoTests.m */; };
+		89059143213924F100D2FA01 /* SKImagePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89059142213924F000D2FA01 /* SKImagePickerDemoUITests.m */; };
+		890591592139252D00D2FA01 /* SKImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 890591512139252D00D2FA01 /* SKImagePickerView.m */; };
+		8905915A2139252D00D2FA01 /* SKImageSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 890591552139252D00D2FA01 /* SKImageSelectView.m */; };
+		8905915B2139252D00D2FA01 /* QuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 890591572139252D00D2FA01 /* QuickControl.m */; };
+		8905915C2139252D00D2FA01 /* UIImage+SKCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 890591582139252D00D2FA01 /* UIImage+SKCompress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89059134213924F000D2FA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89059110213924F000D2FA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89059117213924F000D2FA01;
+			remoteInfo = SKImagePickerDemo;
+		};
+		8905913F213924F000D2FA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89059110213924F000D2FA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89059117213924F000D2FA01;
+			remoteInfo = SKImagePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89059118213924F000D2FA01 /* SKImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8905911B213924F000D2FA01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8905911C213924F000D2FA01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8905911E213924F000D2FA01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8905911F213924F000D2FA01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89059122213924F000D2FA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89059125213924F000D2FA01 /* SKImagePickerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SKImagePickerDemo.xcdatamodel; sourceTree = "<group>"; };
+		89059127213924F000D2FA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8905912A213924F000D2FA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8905912C213924F000D2FA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8905912D213924F000D2FA01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89059133213924F000D2FA01 /* SKImagePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKImagePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89059137213924F000D2FA01 /* SKImagePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImagePickerDemoTests.m; sourceTree = "<group>"; };
+		89059139213924F000D2FA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8905913E213924F000D2FA01 /* SKImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89059142213924F000D2FA01 /* SKImagePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImagePickerDemoUITests.m; sourceTree = "<group>"; };
+		89059144213924F100D2FA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890591512139252D00D2FA01 /* SKImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImagePickerView.m; sourceTree = "<group>"; };
+		890591522139252D00D2FA01 /* SKImageSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageSelectView.h; sourceTree = "<group>"; };
+		890591532139252D00D2FA01 /* QuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickControl.h; sourceTree = "<group>"; };
+		890591542139252D00D2FA01 /* UIImage+SKCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SKCompress.h"; sourceTree = "<group>"; };
+		890591552139252D00D2FA01 /* SKImageSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageSelectView.m; sourceTree = "<group>"; };
+		890591562139252D00D2FA01 /* SKImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImagePickerView.h; sourceTree = "<group>"; };
+		890591572139252D00D2FA01 /* QuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickControl.m; sourceTree = "<group>"; };
+		890591582139252D00D2FA01 /* UIImage+SKCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SKCompress.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89059115213924F000D2FA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89059130213924F000D2FA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8905913B213924F000D2FA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8905910F213924F000D2FA01 = {
+			isa = PBXGroup;
+			children = (
+				890591502139252D00D2FA01 /* SKImagePicker */,
+				8905911A213924F000D2FA01 /* SKImagePickerDemo */,
+				89059136213924F000D2FA01 /* SKImagePickerDemoTests */,
+				89059141213924F000D2FA01 /* SKImagePickerDemoUITests */,
+				89059119213924F000D2FA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89059119213924F000D2FA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89059118213924F000D2FA01 /* SKImagePickerDemo.app */,
+				89059133213924F000D2FA01 /* SKImagePickerDemoTests.xctest */,
+				8905913E213924F000D2FA01 /* SKImagePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8905911A213924F000D2FA01 /* SKImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8905911B213924F000D2FA01 /* AppDelegate.h */,
+				8905911C213924F000D2FA01 /* AppDelegate.m */,
+				8905911E213924F000D2FA01 /* ViewController.h */,
+				8905911F213924F000D2FA01 /* ViewController.m */,
+				89059121213924F000D2FA01 /* Main.storyboard */,
+				89059127213924F000D2FA01 /* Assets.xcassets */,
+				89059129213924F000D2FA01 /* LaunchScreen.storyboard */,
+				8905912C213924F000D2FA01 /* Info.plist */,
+				8905912D213924F000D2FA01 /* main.m */,
+				89059124213924F000D2FA01 /* SKImagePickerDemo.xcdatamodeld */,
+			);
+			path = SKImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		89059136213924F000D2FA01 /* SKImagePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				89059137213924F000D2FA01 /* SKImagePickerDemoTests.m */,
+				89059139213924F000D2FA01 /* Info.plist */,
+			);
+			path = SKImagePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		89059141213924F000D2FA01 /* SKImagePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89059142213924F000D2FA01 /* SKImagePickerDemoUITests.m */,
+				89059144213924F100D2FA01 /* Info.plist */,
+			);
+			path = SKImagePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		890591502139252D00D2FA01 /* SKImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				890591562139252D00D2FA01 /* SKImagePickerView.h */,
+				890591512139252D00D2FA01 /* SKImagePickerView.m */,
+				890591542139252D00D2FA01 /* UIImage+SKCompress.h */,
+				890591582139252D00D2FA01 /* UIImage+SKCompress.m */,
+				890591522139252D00D2FA01 /* SKImageSelectView.h */,
+				890591552139252D00D2FA01 /* SKImageSelectView.m */,
+				890591532139252D00D2FA01 /* QuickControl.h */,
+				890591572139252D00D2FA01 /* QuickControl.m */,
+			);
+			path = SKImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89059117213924F000D2FA01 /* SKImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89059147213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemo" */;
+			buildPhases = (
+				89059114213924F000D2FA01 /* Sources */,
+				89059115213924F000D2FA01 /* Frameworks */,
+				89059116213924F000D2FA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKImagePickerDemo;
+			productName = SKImagePickerDemo;
+			productReference = 89059118213924F000D2FA01 /* SKImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89059132213924F000D2FA01 /* SKImagePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8905914A213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemoTests" */;
+			buildPhases = (
+				8905912F213924F000D2FA01 /* Sources */,
+				89059130213924F000D2FA01 /* Frameworks */,
+				89059131213924F000D2FA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89059135213924F000D2FA01 /* PBXTargetDependency */,
+			);
+			name = SKImagePickerDemoTests;
+			productName = SKImagePickerDemoTests;
+			productReference = 89059133213924F000D2FA01 /* SKImagePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8905913D213924F000D2FA01 /* SKImagePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8905914D213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemoUITests" */;
+			buildPhases = (
+				8905913A213924F000D2FA01 /* Sources */,
+				8905913B213924F000D2FA01 /* Frameworks */,
+				8905913C213924F000D2FA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89059140213924F000D2FA01 /* PBXTargetDependency */,
+			);
+			name = SKImagePickerDemoUITests;
+			productName = SKImagePickerDemoUITests;
+			productReference = 8905913E213924F000D2FA01 /* SKImagePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89059110213924F000D2FA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "徐泽";
+				TargetAttributes = {
+					89059117213924F000D2FA01 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					89059132213924F000D2FA01 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89059117213924F000D2FA01;
+					};
+					8905913D213924F000D2FA01 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89059117213924F000D2FA01;
+					};
+				};
+			};
+			buildConfigurationList = 89059113213924F000D2FA01 /* Build configuration list for PBXProject "SKImagePickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8905910F213924F000D2FA01;
+			productRefGroup = 89059119213924F000D2FA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89059117213924F000D2FA01 /* SKImagePickerDemo */,
+				89059132213924F000D2FA01 /* SKImagePickerDemoTests */,
+				8905913D213924F000D2FA01 /* SKImagePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89059116213924F000D2FA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8905912B213924F000D2FA01 /* LaunchScreen.storyboard in Resources */,
+				89059128213924F000D2FA01 /* Assets.xcassets in Resources */,
+				89059123213924F000D2FA01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89059131213924F000D2FA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8905913C213924F000D2FA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89059114213924F000D2FA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89059126213924F000D2FA01 /* SKImagePickerDemo.xcdatamodeld in Sources */,
+				890591592139252D00D2FA01 /* SKImagePickerView.m in Sources */,
+				8905915B2139252D00D2FA01 /* QuickControl.m in Sources */,
+				8905915A2139252D00D2FA01 /* SKImageSelectView.m in Sources */,
+				89059120213924F000D2FA01 /* ViewController.m in Sources */,
+				8905915C2139252D00D2FA01 /* UIImage+SKCompress.m in Sources */,
+				8905912E213924F000D2FA01 /* main.m in Sources */,
+				8905911D213924F000D2FA01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8905912F213924F000D2FA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89059138213924F000D2FA01 /* SKImagePickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8905913A213924F000D2FA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89059143213924F100D2FA01 /* SKImagePickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89059135213924F000D2FA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89059117213924F000D2FA01 /* SKImagePickerDemo */;
+			targetProxy = 89059134213924F000D2FA01 /* PBXContainerItemProxy */;
+		};
+		89059140213924F000D2FA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89059117213924F000D2FA01 /* SKImagePickerDemo */;
+			targetProxy = 8905913F213924F000D2FA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89059121213924F000D2FA01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89059122213924F000D2FA01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89059129213924F000D2FA01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8905912A213924F000D2FA01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89059145213924F100D2FA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89059146213924F100D2FA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89059148213924F100D2FA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89059149213924F100D2FA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8905914B213924F100D2FA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKImagePickerDemo.app/SKImagePickerDemo";
+			};
+			name = Debug;
+		};
+		8905914C213924F100D2FA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKImagePickerDemo.app/SKImagePickerDemo";
+			};
+			name = Release;
+		};
+		8905914E213924F100D2FA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKImagePickerDemo;
+			};
+			name = Debug;
+		};
+		8905914F213924F100D2FA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UVJ64B9;
+				INFOPLIST_FILE = SKImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlzj.SKImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKImagePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89059113213924F000D2FA01 /* Build configuration list for PBXProject "SKImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89059145213924F100D2FA01 /* Debug */,
+				89059146213924F100D2FA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89059147213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89059148213924F100D2FA01 /* Debug */,
+				89059149213924F100D2FA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8905914A213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8905914B213924F100D2FA01 /* Debug */,
+				8905914C213924F100D2FA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8905914D213924F100D2FA01 /* Build configuration list for PBXNativeTarget "SKImagePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8905914E213924F100D2FA01 /* Debug */,
+				8905914F213924F100D2FA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89059124213924F000D2FA01 /* SKImagePickerDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89059125213924F000D2FA01 /* SKImagePickerDemo.xcdatamodel */,
+			);
+			currentVersion = 89059125213924F000D2FA01 /* SKImagePickerDemo.xcdatamodel */;
+			path = SKImagePickerDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89059110213924F000D2FA01 /* Project object */;
+}

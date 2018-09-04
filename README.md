@@ -4,6 +4,7 @@
 # Use with this code
  
  [SKImagePickerView imagePickerWithPushControl:self ReturnData:^(NSData *data) {
+ 
         UIImage *image = [UIImage imageWithData:data];
         self.imageView.image = image;
     

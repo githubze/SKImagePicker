@@ -114,7 +114,7 @@
     if (!_sheetView) {
         _sheetView = [UIView viewWithFrame:CGRectMake(0, PickerScreenHeight, PickerScreenWidth, 251) backgroundcolor:[UIColor clearColor]];
         [UIView animateWithDuration:0.2 animations:^{
-            _sheetView.frame = CGRectMake(0, PickerScreenHeight-251, PickerScreenWidth, 251);
+            self->_sheetView.frame = CGRectMake(0, PickerScreenHeight-251, PickerScreenWidth, 251);
         }];
     }
     return _sheetView;

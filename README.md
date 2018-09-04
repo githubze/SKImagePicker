@@ -9,5 +9,9 @@
         self.imageView.image = image;
     
  }];
+ 
+ # Display Effect
+ 
+ https://github.com/githubze/myPictureManager/blob/master/39549D7FE5176F3A8989D239637532EB.png
 
 

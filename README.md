@@ -1,5 +1,5 @@
 # Use CocoaPods
- pod 'SKImagePicker', '~> 1.0.1'
+ pod 'SKImagePicker', '~> 1.0.2'
  
 # Use with this code
  
